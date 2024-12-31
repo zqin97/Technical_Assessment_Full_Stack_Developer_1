@@ -48,16 +48,16 @@ This exercise will help us evaluate your skills in backend development, API desi
 4. UI/UX:
 - Build a responsive and user-friendly interface using any library (e.g., Ant Design, or TailwindCSS).
 
-### Deliverables
-1. Backend:
+## Deliverables
+### Backend:
 - A GitHub repository containing the Express.js backend with TypeScript.
 Include instructions to set up and run the backend.
 
-2. Frontend:
+### Frontend:
 - A GitHub repository containing the React.js frontend with Redux Toolkit.
 - Include instructions to set up and run the frontend.
 
-3. README:
+### README:
 - Provide a README.md file for each repository with:
 - Setup instructions.
 - API endpoint details.
