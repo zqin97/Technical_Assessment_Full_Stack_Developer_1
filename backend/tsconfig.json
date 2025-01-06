@@ -1,15 +1,27 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ESNext",
-    "lib": ["ESNext", "DOM", "es6", "dom", "es2015", "es2017", "esnext.asynciterable"],
-    "moduleResolution": "Node",
+    "target": "ES6",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "es5",
+      "es6",
+      "dom",
+      "es2015",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "importHelpers": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "outDir": "./dist",
+    "outDir": "./dist"
   },
   "include": ["**/*", "./src/schema/*.d.ts"],
   "exclude": ["node_modules"]

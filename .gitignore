@@ -1,3 +1,5 @@
 backend/node_modules
+backend/typeorm.config.ts
+
 frontend/node_modules
 .idea
